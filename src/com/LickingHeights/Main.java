@@ -26,6 +26,9 @@ public class Main {
         else if (40>=number && number>30){
             System.out.println("You might want to look out.");
         }
+        else if (50>=number && number>40){
+            System.out.println("You have something good coming for you.");
+        }
 
 
 
