@@ -41,6 +41,9 @@ public class Main {
         else if (90>=number && number>80){
             System.out.println("You will win the lottery.");
         }
+        else if (100>=number && number>90){
+            System.out.println("You will be broke very soon.");
+        }
 
 
 
