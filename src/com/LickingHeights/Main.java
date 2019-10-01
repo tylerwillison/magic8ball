@@ -29,6 +29,16 @@ public class Main {
         else if (50>=number && number>40){
             System.out.println("You have something good coming for you.");
         }
+        else if (60>=number && number>50){
+            System.out.println("Buses aren't a good thing.");
+        }
+        else if (70>=number && number>60){
+            System.out.println("I hear money.");
+        }
+        else if (80>=number && number>70){
+            System.out.println("Gambling is an addictive thing.");
+        }
+
 
 
 
