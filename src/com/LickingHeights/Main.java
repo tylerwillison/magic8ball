@@ -20,7 +20,11 @@ public class Main {
         int tenthNumbers;
         Double number;
 
-     
+        System.out.println("Hello, welcome to the magic 8 ball.");
+        System.out.println("Pick a number 1-100.");
+        number = keyboard.nextDouble();
+
+
 
 
 
