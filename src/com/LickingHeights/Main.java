@@ -38,7 +38,9 @@ public class Main {
         else if (80>=number && number>70){
             System.out.println("Gambling is an addictive thing.");
         }
-
+        else if (90>=number && number>80){
+            System.out.println("You will win the lottery.");
+        }
 
 
 
