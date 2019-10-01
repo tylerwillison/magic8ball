@@ -14,12 +14,20 @@ public class Main {
         System.out.println("Pick a number 1-100.");
         number = keyboard.nextDouble();
 
-        if (0>number && number>10){
+        if (10>=number && number>0){
             System.out.println("It is looking bright.");
         }
-        else if (number>10){
+        else if (20>=number && number>10){
             System.out.println("It is not looking too bright.");
         }
+        else if (30>=number && number>20){
+            System.out.println("Something good will happen soon.");
+        }
+        else if (40>=number && number>30){
+            System.out.println("You might want to look out.");
+        }
+
+
 
 
 
