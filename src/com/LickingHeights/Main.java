@@ -8,24 +8,18 @@ public class Main {
 	Scanner keyboard;
 	keyboard = new Scanner(System.in);
 
-	    int firstNumber;
-        int secondNumber;
-        int thirdNumber;
-        int fourthNumber;
-        int fifthNumber;
-        int sixthNumber;
-        int seventhNumber;
-        int eighthNumber;
-        int ninthNumber;
-        int tenthNumbers;
         Double number;
 
         System.out.println("Hello, welcome to the magic 8 ball.");
         System.out.println("Pick a number 1-100.");
         number = keyboard.nextDouble();
 
-
-
+        if (0>number && number>10){
+            System.out.println("It is looking bright.");
+        }
+        else if (number>10){
+            System.out.println("It is not looking too bright.");
+        }
 
 
 
